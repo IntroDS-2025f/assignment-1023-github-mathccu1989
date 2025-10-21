@@ -18,3 +18,4 @@ with open(outfile, "a", encoding="utf-8") as f:
     f.write(f"日期：{date_str}\t姓名：{name}\t學號：{student_id}\t時間戳：{timestamp}\n")
 
 print(f"\n✅ 已儲存輸入資料至 {outfile}")
+
